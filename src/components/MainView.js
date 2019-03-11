@@ -28,6 +28,8 @@ class MainView extends Component {
       })   
   }
 
+  // find most isolated:
+
   mapIsolatedAgentsToCountries = (missions) => {
     // map all agents
     const agentsMap = {};
@@ -74,6 +76,7 @@ class MainView extends Component {
     return winner;
   }
 
+  ///////
 
   render () {
     const { missions, loaded } = this.state;
