@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import _ from 'underscore';
 import ResultsTable from './ResultsTable';
 import Winner from './Winner';
 
